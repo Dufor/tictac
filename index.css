@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.tictac {
+    width: 200px;
+    height: 210px;
+    background: navy;
+    position: relative;
+}
+.field {
+    width: 33.3%;
+    height: 33.3%;
+    background: lightgreen;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.move {
+    height: 30px;
+    width: 200px;
+    background: lightgray;
+    text-align: center;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.endGame {
+     width: 200px;
+    height: 210px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-color: RGBA(103,58,183, 0.8);
+    color: #E91E63;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+}
